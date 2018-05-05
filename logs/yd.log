@@ -1,0 +1,212 @@
+[2018-05-02T01:37:56.826] [ERROR] cheese - Error: Module build failed: SyntaxError: 'import' and 'export' may only appear at the top level (10:2)
+
+[0m [90m  8 | [39m[36mexport[39m [36mdefault[39m {
+ [90m  9 | [39m	mounted() {
+[31m[1m>[22m[39m[90m 10 | [39m		[36mimport[39m([32m"./Test.js"[39m)[33m.[39mthen(res [33m=>[39m {
+ [90m    | [39m		[31m[1m^[22m[39m
+ [90m 11 | [39m			res[33m.[39m[36mdefault[39m()[33m;[39m
+ [90m 12 | [39m		})[33m;[39m
+ [90m 13 | [39m	}[0m
+
+    at eval (webpack:///./src/webapp/components/test/Test.vue?./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options:1:7)
+    at Object../node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/webapp/components/test/Test.vue?vue&type=script&lang=js (scripts/main.bundle.js:447:1)
+    at __webpack_require__ (scripts/main.bundle.js:24:30)
+    at eval (webpack:///./src/webapp/components/test/Test.vue?:2:186)
+    at Object../src/webapp/components/test/Test.vue?vue&type=script&lang=js (scripts/main.bundle.js:942:1)
+    at __webpack_require__ (scripts/main.bundle.js:24:30)
+    at eval (webpack:///./src/webapp/components/test/Test.vue?:3:91)
+    at Object../src/webapp/components/test/Test.vue (scripts/main.bundle.js:930:1)
+    at __webpack_require__ (scripts/main.bundle.js:24:30)
+    at eval (webpack:///./src/webapp/router/index.js?:20:13)
+[2018-05-02T01:37:58.360] [ERROR] cheese - Error: Module build failed: SyntaxError: 'import' and 'export' may only appear at the top level (10:2)
+
+[0m [90m  8 | [39m[36mexport[39m [36mdefault[39m {
+ [90m  9 | [39m	mounted() {
+[31m[1m>[22m[39m[90m 10 | [39m		[36mimport[39m([32m"./Test.js"[39m)[33m.[39mthen(res [33m=>[39m {
+ [90m    | [39m		[31m[1m^[22m[39m
+ [90m 11 | [39m			res[33m.[39m[36mdefault[39m()[33m;[39m
+ [90m 12 | [39m		})[33m;[39m
+ [90m 13 | [39m	}[0m
+
+    at eval (webpack:///./src/webapp/components/test/Test.vue?./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options:1:7)
+    at Object../node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/webapp/components/test/Test.vue?vue&type=script&lang=js (scripts/main.bundle.js:447:1)
+    at __webpack_require__ (scripts/main.bundle.js:24:30)
+    at eval (webpack:///./src/webapp/components/test/Test.vue?:2:186)
+    at Object../src/webapp/components/test/Test.vue?vue&type=script&lang=js (scripts/main.bundle.js:942:1)
+    at __webpack_require__ (scripts/main.bundle.js:24:30)
+    at eval (webpack:///./src/webapp/components/test/Test.vue?:3:91)
+    at Object../src/webapp/components/test/Test.vue (scripts/main.bundle.js:930:1)
+    at __webpack_require__ (scripts/main.bundle.js:24:30)
+    at eval (webpack:///./src/webapp/router/index.js?:20:13)
+[2018-05-02T01:38:01.373] [ERROR] cheese - Error: Module build failed: SyntaxError: 'import' and 'export' may only appear at the top level (10:2)
+
+[0m [90m  8 | [39m[36mexport[39m [36mdefault[39m {
+ [90m  9 | [39m	mounted() {
+[31m[1m>[22m[39m[90m 10 | [39m		[36mimport[39m([32m"./Test.js"[39m)[33m.[39mthen(res [33m=>[39m {
+ [90m    | [39m		[31m[1m^[22m[39m
+ [90m 11 | [39m			res[33m.[39m[36mdefault[39m()[33m;[39m
+ [90m 12 | [39m		})[33m;[39m
+ [90m 13 | [39m	}[0m
+
+    at eval (webpack:///./src/webapp/components/test/Test.vue?./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options:1:7)
+    at Object../node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/webapp/components/test/Test.vue?vue&type=script&lang=js (scripts/main.bundle.js:447:1)
+    at __webpack_require__ (scripts/main.bundle.js:24:30)
+    at eval (webpack:///./src/webapp/components/test/Test.vue?:2:186)
+    at Object../src/webapp/components/test/Test.vue?vue&type=script&lang=js (scripts/main.bundle.js:942:1)
+    at __webpack_require__ (scripts/main.bundle.js:24:30)
+    at eval (webpack:///./src/webapp/components/test/Test.vue?:3:91)
+    at Object../src/webapp/components/test/Test.vue (scripts/main.bundle.js:930:1)
+    at __webpack_require__ (scripts/main.bundle.js:24:30)
+    at eval (webpack:///./src/webapp/router/index.js?:20:13)
+[2018-05-02T02:17:39.943] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/assets/index.html'
+    at Object.fs.openSync (fs.js:545:3)
+    at Object.fs.readFileSync (fs.js:451:33)
+    at helloAPI.getIndex (/Users/yuanzhijia/Desktop/yd-ssr/dist/controllers/IndexController.js:65:29)
+    at memberInvoker (/Users/yuanzhijia/Desktop/yd-ssr/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/Users/yuanzhijia/Desktop/yd-ssr/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yuanzhijia/Desktop/yd-ssr/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/yuanzhijia/Desktop/yd-ssr/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/yuanzhijia/Desktop/yd-ssr/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/yuanzhijia/Desktop/yd-ssr/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/yuanzhijia/Desktop/yd-ssr/node_modules/koa-router/lib/router.js:351:31)
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/assets/index.html' }
+[2018-05-02T02:19:43.461] [ERROR] cheese - TypeError: ssrStream.pipe is not a function
+    at Promise (/Users/yuanzhijia/Desktop/yd-ssr/dist/controllers/IndexController.js:83:27)
+    at new Promise (<anonymous>)
+    at createSsrStreamPromise (/Users/yuanzhijia/Desktop/yd-ssr/dist/controllers/IndexController.js:76:20)
+    at helloAPI.getIndex (/Users/yuanzhijia/Desktop/yd-ssr/dist/controllers/IndexController.js:86:15)
+    at memberInvoker (/Users/yuanzhijia/Desktop/yd-ssr/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/Users/yuanzhijia/Desktop/yd-ssr/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yuanzhijia/Desktop/yd-ssr/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/yuanzhijia/Desktop/yd-ssr/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/yuanzhijia/Desktop/yd-ssr/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/yuanzhijia/Desktop/yd-ssr/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+[2018-05-04T21:19:58.427] [ERROR] cheese - ReferenceError: conetxt is not defined
+    at eval (webpack:///./src/webapp/entry-server.js?:23:21)
+    at new Promise (<anonymous>)
+    at exports.default (webpack:///./src/webapp/entry-server.js?:14:12)
+    at C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\vue-server-renderer\build.js:8426:15
+    at new Promise (<anonymous>)
+    at C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\vue-server-renderer\build.js:8388:14
+    at Object.renderToStream (C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\vue-server-renderer\build.js:8581:9)
+    at Promise (C:\Users\ypf\Desktop\vue\yd-ssr-back\dist\controllers\IndexController.js:80:45)
+    at new Promise (<anonymous>)
+    at createSsrStreamPromise (C:\Users\ypf\Desktop\vue\yd-ssr-back\dist\controllers\IndexController.js:76:20)
+[2018-05-04T21:20:02.239] [ERROR] cheese - ReferenceError: conetxt is not defined
+    at eval (webpack:///./src/webapp/entry-server.js?:23:21)
+    at new Promise (<anonymous>)
+    at exports.default (webpack:///./src/webapp/entry-server.js?:14:12)
+    at C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\vue-server-renderer\build.js:8426:15
+    at new Promise (<anonymous>)
+    at C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\vue-server-renderer\build.js:8388:14
+    at Object.renderToStream (C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\vue-server-renderer\build.js:8581:9)
+    at Promise (C:\Users\ypf\Desktop\vue\yd-ssr-back\dist\controllers\IndexController.js:80:45)
+    at new Promise (<anonymous>)
+    at createSsrStreamPromise (C:\Users\ypf\Desktop\vue\yd-ssr-back\dist\controllers\IndexController.js:76:20)
+[2018-05-04T21:20:32.307] [ERROR] cheese - ReferenceError: conetxt is not defined
+    at eval (webpack:///./src/webapp/entry-server.js?:23:21)
+    at new Promise (<anonymous>)
+    at exports.default (webpack:///./src/webapp/entry-server.js?:14:12)
+    at C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\vue-server-renderer\build.js:8426:15
+    at new Promise (<anonymous>)
+    at C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\vue-server-renderer\build.js:8388:14
+    at Object.renderToStream (C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\vue-server-renderer\build.js:8581:9)
+    at Promise (C:\Users\ypf\Desktop\vue\yd-ssr-back\dist\controllers\IndexController.js:80:45)
+    at new Promise (<anonymous>)
+    at createSsrStreamPromise (C:\Users\ypf\Desktop\vue\yd-ssr-back\dist\controllers\IndexController.js:76:20)
+[2018-05-04T21:20:56.686] [ERROR] cheese - ReferenceError: conetxt is not defined
+    at eval (webpack:///./src/webapp/entry-server.js?:23:21)
+    at new Promise (<anonymous>)
+    at exports.default (webpack:///./src/webapp/entry-server.js?:14:12)
+    at C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\vue-server-renderer\build.js:8426:15
+    at new Promise (<anonymous>)
+    at C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\vue-server-renderer\build.js:8388:14
+    at Object.renderToStream (C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\vue-server-renderer\build.js:8581:9)
+    at Promise (C:\Users\ypf\Desktop\vue\yd-ssr-back\dist\controllers\IndexController.js:80:45)
+    at new Promise (<anonymous>)
+    at createSsrStreamPromise (C:\Users\ypf\Desktop\vue\yd-ssr-back\dist\controllers\IndexController.js:76:20)
+[2018-05-04T22:05:18.614] [ERROR] cheese - { Error: ENOENT: no such file or directory, open 'C:\Users\ypf\Desktop\vue\yd-ssr-back\dist\assets\index.html'
+    at Object.fs.openSync (fs.js:646:18)
+    at Object.fs.readFileSync (fs.js:551:33)
+    at helloAPI.getIndex (C:\Users\ypf\Desktop\vue\yd-ssr-back\dist\controllers\IndexController.js:71:29)
+    at memberInvoker (C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\awilix-koa\lib\invokers.js:80:45)
+    at dispatch (C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\koa-router\lib\router.js:351:31)
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\ypf\\Desktop\\vue\\yd-ssr-back\\dist\\assets\\index.html' }
+[2018-05-04T22:10:11.939] [ERROR] cheese - { Error: ENOENT: no such file or directory, open 'C:\Users\ypf\Desktop\vue\yd-ssr-back\dist\assets\index.html'
+    at Object.fs.openSync (fs.js:646:18)
+    at Object.fs.readFileSync (fs.js:551:33)
+    at helloAPI.getIndex (C:\Users\ypf\Desktop\vue\yd-ssr-back\dist\controllers\IndexController.js:71:29)
+    at memberInvoker (C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\awilix-koa\lib\invokers.js:80:45)
+    at dispatch (C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\koa-router\lib\router.js:351:31)
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\ypf\\Desktop\\vue\\yd-ssr-back\\dist\\assets\\index.html' }
+[2018-05-04T22:10:12.557] [ERROR] cheese - { Error: ENOENT: no such file or directory, open 'C:\Users\ypf\Desktop\vue\yd-ssr-back\dist\assets\index.html'
+    at Object.fs.openSync (fs.js:646:18)
+    at Object.fs.readFileSync (fs.js:551:33)
+    at helloAPI.getIndex (C:\Users\ypf\Desktop\vue\yd-ssr-back\dist\controllers\IndexController.js:71:29)
+    at memberInvoker (C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\awilix-koa\lib\invokers.js:80:45)
+    at dispatch (C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\koa-router\lib\router.js:351:31)
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\ypf\\Desktop\\vue\\yd-ssr-back\\dist\\assets\\index.html' }
+[2018-05-04T22:10:13.083] [ERROR] cheese - { Error: ENOENT: no such file or directory, open 'C:\Users\ypf\Desktop\vue\yd-ssr-back\dist\assets\index.html'
+    at Object.fs.openSync (fs.js:646:18)
+    at Object.fs.readFileSync (fs.js:551:33)
+    at helloAPI.getIndex (C:\Users\ypf\Desktop\vue\yd-ssr-back\dist\controllers\IndexController.js:71:29)
+    at memberInvoker (C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\awilix-koa\lib\invokers.js:80:45)
+    at dispatch (C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\koa-router\lib\router.js:351:31)
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\ypf\\Desktop\\vue\\yd-ssr-back\\dist\\assets\\index.html' }
+[2018-05-04T22:16:33.754] [ERROR] cheese - ReferenceError: json is not defined
+    at eval (webpack:///./src/webapp/entry-server.js?:30:21)
+    at AbstractHistory.onReady (webpack:///./node_modules/vue-router/dist/vue-router.esm.js?:1739:5)
+    at VueRouter.onReady (webpack:///./node_modules/vue-router/dist/vue-router.esm.js?:2369:16)
+    at eval (webpack:///./src/webapp/entry-server.js?:27:16)
+    at new Promise (<anonymous>)
+    at exports.default (webpack:///./src/webapp/entry-server.js?:14:12)
+    at C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\vue-server-renderer\build.js:8426:15
+    at new Promise (<anonymous>)
+    at C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\vue-server-renderer\build.js:8388:14
+    at Object.renderToStream (C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\vue-server-renderer\build.js:8581:9)
+[2018-05-04T22:18:27.964] [ERROR] cheese - TypeError: Cannot read property 'count' of undefined
+    at eval (webpack:///./src/webapp/entry-server.js?:30:48)
+    at AbstractHistory.onReady (webpack:///./node_modules/vue-router/dist/vue-router.esm.js?:1739:5)
+    at VueRouter.onReady (webpack:///./node_modules/vue-router/dist/vue-router.esm.js?:2369:16)
+    at eval (webpack:///./src/webapp/entry-server.js?:27:16)
+    at new Promise (<anonymous>)
+    at exports.default (webpack:///./src/webapp/entry-server.js?:14:12)
+    at C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\vue-server-renderer\build.js:8426:15
+    at new Promise (<anonymous>)
+    at C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\vue-server-renderer\build.js:8388:14
+    at Object.renderToStream (C:\Users\ypf\Desktop\vue\yd-ssr-back\node_modules\vue-server-renderer\build.js:8581:9)
